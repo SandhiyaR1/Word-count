@@ -29,6 +29,7 @@ print("number of words ={}".format(num_word))
 ```
 ### OUTPUT:
 ![output](/wordcount.png)
+![output](/file.png)
 
 
 
