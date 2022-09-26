@@ -18,8 +18,17 @@ Anaconda - Python 3.7
 ### Step 6: 
 
 ## PROGRAM:
+``` python
+num_word=0
+with open ("sample.txt",'r') as f:
+    for i in f:
+        word=i.split()
+        num_word+=len(word)
+print("number of words ={}".format(num_word))
 
+```
 ### OUTPUT:
+![output](/wordcount.png)
 
 
 
